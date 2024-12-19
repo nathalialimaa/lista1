@@ -1,0 +1,286 @@
+<style>
+body {
+    font-family: Garamond;
+    font-size: 11pt
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0pt 0pt 6pt
+}
+
+li,
+table {
+    margin-top: 0pt;
+    margin-bottom: 6pt
+}
+
+h1 {
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    border-bottom: 0.75pt solid #000000;
+    padding-bottom: 1pt;
+    font-family: Garamond;
+    font-size: 16pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000000;
+    -aw-border-bottom: 0.5pt single
+}
+
+h2 {
+    margin-top: 6pt;
+    margin-bottom: 3pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    font-family: Garamond;
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    color: #000000
+}
+
+h3 {
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    font-family: Garamond;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000000
+}
+
+h4 {
+    margin-bottom: 6pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: avoid;
+    font-family: Garamond;
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000
+}
+
+.Abstract {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    border-bottom: 0.75pt solid #000000;
+    padding-bottom: 1pt;
+    font-family: Garamond;
+    font-size: 18pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #595959;
+    -aw-border-bottom: 0.5pt single;
+    -aw-outline-level: 1;
+    -aw-style-parent: heading1
+}
+
+.BalloonText {
+    margin-bottom: 6pt;
+    line-height: normal;
+    font-family: Tahoma;
+    font-size: 8pt;
+    -aw-style-name: balloon-text
+}
+
+.Footer {
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 10pt;
+    -aw-style-name: footer
+}
+
+.FootnoteText {
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Garamond;
+    font-size: 10pt;
+    -aw-style-name: footnote-text
+}
+
+.Header {
+    margin-bottom: 6pt;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 10pt;
+    -aw-style-name: header
+}
+
+.ListParagraph {
+    margin-left: 36pt;
+    margin-bottom: 6pt;
+    font-family: Garamond;
+    font-size: 11pt;
+    -aw-style-name: list-paragraph
+}
+
+.PaperTitle {
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    border-bottom: 0.75pt solid #000000;
+    padding-bottom: 1pt;
+    font-family: Garamond;
+    font-size: 18pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    -aw-border-bottom: 0.5pt single;
+    -aw-outline-level: 1;
+    -aw-style-name: 'Paper Title';
+    -aw-style-parent: heading1
+}
+
+.PaperInfo {
+    margin-bottom: 6pt;
+    font-family: Garamond;
+    font-size: 11pt;
+    -aw-style-name: 'Paper_Info'
+}
+
+.RefJournal {
+    margin-left: 18pt;
+    margin-bottom: 6pt;
+    text-indent: -18pt;
+    font-family: Garamond;
+    font-size: 10pt;
+    -aw-style-name: 'Ref Journal'
+}
+
+.References {
+    margin-left: 18pt;
+    margin-bottom: 6pt;
+    text-indent: -18pt;
+    font-family: Garamond;
+    font-size: 10pt
+}
+
+.Title {
+    margin-bottom: 6pt;
+    line-height: normal;
+    border-bottom: 1pt solid #5b9bd5;
+    padding-bottom: 4pt;
+    font-family: Garamond;
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: 0.25pt;
+    color: #323e4f;
+    -aw-style-name: title
+}
+
+span.AbstractChar {
+    font-family: Garamond;
+    font-size: 18pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #595959;
+    -aw-style-name: 'Abstract Char'
+}
+
+span.FollowedHyperlink {
+    text-decoration: underline;
+    color: #800080;
+    -aw-style-name: followed-hyperlink
+}
+
+span.FooterChar {
+    font-family: Arial
+}
+
+span.FootnoteReference {
+    vertical-align: super;
+    -aw-style-name: footnote-reference
+}
+
+span.FootnoteTextChar {
+    font-family: Garamond
+}
+
+span.Heading1Char {
+    font-family: Garamond;
+    font-size: 16pt;
+    font-weight: bold;
+    font-variant: small-caps
+}
+
+span.Heading2Char {
+    font-family: Garamond;
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps
+}
+
+span.Hyperlink {
+    text-decoration: underline;
+    color: #0000ff;
+    -aw-style-name: hyperlink
+}
+
+span.PageNumber {
+    -aw-style-name: page-number
+}
+
+span.PaperTitleChar {
+    font-family: Garamond;
+    font-size: 18pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    -aw-style-name: 'Paper Title Char'
+}
+
+span.PaperInfoChar {
+    font-family: Garamond;
+    font-size: 11pt;
+    -aw-style-name: 'Paper_Info Char'
+}
+
+span.PlaceholderText {
+    color: #808080;
+    -aw-style-name: placeholder-text
+}
+
+span.RefJournalChar {
+    font-family: Garamond;
+    -aw-style-name: 'Ref Journal Char'
+}
+
+span.ReferencesChar {
+    font-family: Garamond;
+    -aw-style-name: 'References Char'
+}
+
+span.Strong {
+    font-weight: bold;
+    -aw-style-name: strong
+}
+
+span.TitleChar {
+    font-family: Garamond;
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: 0.25pt;
+    color: #323e4f
+}
+
+span.UnresolvedMention {
+    color: #808080;
+    background-color: #e6e6e6;
+    -aw-style-name: unresolved-mention
+}
+
+.TableGrid {}
+</style>
