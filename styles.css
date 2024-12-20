@@ -1,4 +1,4 @@
-
+/* Estilos existentes */
 body {
     font-family: Garamond;
     font-size: 11pt
@@ -282,4 +282,303 @@ span.UnresolvedMention {
     -aw-style-name: unresolved-mention
 }
 
-.TableGrid {}
+/* Novas classes adicionadas */
+.header-primary {
+    -aw-different-first-page: true;
+    -aw-headerfooter-type: header-primary;
+    clear: both;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 12pt;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold-highlight {
+    font-weight: bold;
+    background-color: #ffff00;
+}
+
+.TableGrid {
+    width: 436.5pt;
+    margin-bottom: 0pt;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-cell {
+    width: 116.1pt; /* ou 172.8pt e 115.2pt, conforme necessário */
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+}
+
+.table-cell-116 {
+    width: 116.1pt;
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+}
+
+.table-cell-172 {
+    width: 172.8pt;
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+}
+
+.table-cell-115 {
+    width: 115.2pt;
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+}
+.font-size-12pt {
+    font-size: 12pt;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.TableGrid {
+    width: 449.05pt;
+    margin-bottom: 0pt;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-cell-82 {
+    width: 82.8pt;
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+}
+
+.table-cell-330 {
+    width: 330.25pt;
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+}
+.aw-bookmark-end {
+    -aw-bookmark-end: attr(value);
+}
+
+.aw-import-ignore {
+    -aw-import: ignore;
+}
+
+.list-paragraph {
+    margin-left: 28.06pt;
+    margin-bottom: 0pt;
+    padding-left: 7.94pt;
+    font-family: serif;
+    -aw-font-family: 'Symbol';
+    -aw-font-weight: normal;
+    list-style-type: disc;
+}
+
+.garamond {
+    font-family: Garamond;
+}
+
+.italic {
+    font-style: italic;
+}
+.aw-import-spaces {
+    -aw-import: spaces;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.table-style {
+    width: 429.45pt;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0pt;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-cell-style {
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.page-break-avoid {
+    page-break-after: avoid;
+}
+
+.font-size-10pt {
+    font-size: 10pt;
+}
+.table-cell-style-34 {
+    width: 34.5pt;
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.table-cell-style-63 {
+    width: 63.1pt;
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.table-cell-style-56 {
+    width: 56.55pt;
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.table-cell-style-58 {
+    width: 58.9pt;
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.table-cell-style-46 {
+    width: 46.5pt;
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.table-cell-style-69 {
+    width: 69pt;
+    border-style: solid;
+    border-width: 0.75pt;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #c0c0c0;
+}
+
+.table-cell-style-white-33 {
+    width: 33.7pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.table-cell-style-white-34 {
+    width: 34.45pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+.table-cell-style-white-35{
+    width: 34.5pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+.table-cell-style-white-63 {
+    width: 63.1pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.table-cell-style-white-56 {
+    width: 56.55pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.table-cell-style-white-58 {
+    width: 58.9pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.table-cell-style-white-46 {
+    width: 46.5pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.table-cell-style-white-69 {
+    width: 69pt;
+    border: 0.75pt solid #c0c0c0;
+    padding-right: 1.62pt;
+    padding-left: 1.62pt;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.page-break-avoid {
+    page-break-after: avoid;
+}
+
+.font-size-10pt {
+    font-size: 10pt;
+}
+
+.font-size-11pt {
+    font-size: 11pt;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.aw-import-ignore{
+    -aw-import:ignore;
+}
